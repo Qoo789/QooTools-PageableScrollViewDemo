@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A344F9F93C913B96488C9FE /* libPods-QooTools-PageableScrollViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11403210138977C854011866 /* libPods-QooTools-PageableScrollViewDemo.a */; };
+		2B2D71321FBAE915009C4D55 /* PCDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D71311FBAE915009C4D55 /* PCDetailVC.m */; };
+		2B2D71351FBAEAB9009C4D55 /* PCFirstPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D71341FBAEAB9009C4D55 /* PCFirstPageVC.m */; };
+		2B2D713A1FBAEDAC009C4D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D71361FBAEDAC009C4D55 /* LaunchScreen.storyboard */; };
+		2B2D713B1FBAEDAC009C4D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2D71381FBAEDAC009C4D55 /* Main.storyboard */; };
+		2BC7A1301FBADD7B008DF63F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7A12F1FBADD7B008DF63F /* AppDelegate.m */; };
+		2BC7A1381FBADD7B008DF63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC7A1371FBADD7B008DF63F /* Assets.xcassets */; };
+		2BC7A13E1FBADD7B008DF63F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7A13D1FBADD7B008DF63F /* main.m */; };
+		2BC7A1461FBAE3A9008DF63F /* UIScrollView+PCPageableScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7A1441FBAE3A9008DF63F /* UIScrollView+PCPageableScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11403210138977C854011866 /* libPods-QooTools-PageableScrollViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QooTools-PageableScrollViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2D71301FBAE915009C4D55 /* PCDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCDetailVC.h; sourceTree = "<group>"; };
+		2B2D71311FBAE915009C4D55 /* PCDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCDetailVC.m; sourceTree = "<group>"; };
+		2B2D71331FBAEAB9009C4D55 /* PCFirstPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCFirstPageVC.h; sourceTree = "<group>"; };
+		2B2D71341FBAEAB9009C4D55 /* PCFirstPageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCFirstPageVC.m; sourceTree = "<group>"; };
+		2B2D71371FBAEDAC009C4D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B2D71391FBAEDAC009C4D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BC7A12B1FBADD7B008DF63F /* QooTools-PageableScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QooTools-PageableScrollViewDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC7A12E1FBADD7B008DF63F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BC7A12F1FBADD7B008DF63F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BC7A1371FBADD7B008DF63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BC7A13C1FBADD7B008DF63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC7A13D1FBADD7B008DF63F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BC7A1441FBAE3A9008DF63F /* UIScrollView+PCPageableScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PCPageableScrollView.m"; sourceTree = "<group>"; };
+		2BC7A1451FBAE3A9008DF63F /* UIScrollView+PCPageableScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PCPageableScrollView.h"; sourceTree = "<group>"; };
+		46559A3487D40932127CEFF3 /* Pods-QooTools-PageableScrollViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QooTools-PageableScrollViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QooTools-PageableScrollViewDemo/Pods-QooTools-PageableScrollViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		76BC6A5C45E7A444FF77C933 /* Pods-QooTools-PageableScrollViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QooTools-PageableScrollViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QooTools-PageableScrollViewDemo/Pods-QooTools-PageableScrollViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BC7A1281FBADD7B008DF63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A344F9F93C913B96488C9FE /* libPods-QooTools-PageableScrollViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BC7A1221FBADD7B008DF63F = {
+			isa = PBXGroup;
+			children = (
+				2BC7A12D1FBADD7B008DF63F /* QooTools-PageableScrollViewDemo */,
+				2BC7A12C1FBADD7B008DF63F /* Products */,
+				7B0BDCBB47B0D7862DF78466 /* Pods */,
+				8CD375BA0EBD1DA71F47F5A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BC7A12C1FBADD7B008DF63F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BC7A12B1FBADD7B008DF63F /* QooTools-PageableScrollViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BC7A12D1FBADD7B008DF63F /* QooTools-PageableScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2BC7A1471FBAE3B3008DF63F /* UIScrollView+PCPageableScrollView */,
+				2BC7A12E1FBADD7B008DF63F /* AppDelegate.h */,
+				2BC7A12F1FBADD7B008DF63F /* AppDelegate.m */,
+				2B2D71331FBAEAB9009C4D55 /* PCFirstPageVC.h */,
+				2B2D71341FBAEAB9009C4D55 /* PCFirstPageVC.m */,
+				2B2D71301FBAE915009C4D55 /* PCDetailVC.h */,
+				2B2D71311FBAE915009C4D55 /* PCDetailVC.m */,
+				2BC7A1371FBADD7B008DF63F /* Assets.xcassets */,
+				2BC7A13C1FBADD7B008DF63F /* Info.plist */,
+				2BC7A13D1FBADD7B008DF63F /* main.m */,
+				2B2D71361FBAEDAC009C4D55 /* LaunchScreen.storyboard */,
+				2B2D71381FBAEDAC009C4D55 /* Main.storyboard */,
+			);
+			path = "QooTools-PageableScrollViewDemo";
+			sourceTree = "<group>";
+		};
+		2BC7A1471FBAE3B3008DF63F /* UIScrollView+PCPageableScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				2BC7A1451FBAE3A9008DF63F /* UIScrollView+PCPageableScrollView.h */,
+				2BC7A1441FBAE3A9008DF63F /* UIScrollView+PCPageableScrollView.m */,
+			);
+			path = "UIScrollView+PCPageableScrollView";
+			sourceTree = "<group>";
+		};
+		7B0BDCBB47B0D7862DF78466 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46559A3487D40932127CEFF3 /* Pods-QooTools-PageableScrollViewDemo.debug.xcconfig */,
+				76BC6A5C45E7A444FF77C933 /* Pods-QooTools-PageableScrollViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CD375BA0EBD1DA71F47F5A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11403210138977C854011866 /* libPods-QooTools-PageableScrollViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BC7A12A1FBADD7B008DF63F /* QooTools-PageableScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BC7A1411FBADD7B008DF63F /* Build configuration list for PBXNativeTarget "QooTools-PageableScrollViewDemo" */;
+			buildPhases = (
+				9A4CB6805E761E0484B68293 /* [CP] Check Pods Manifest.lock */,
+				2BC7A1271FBADD7B008DF63F /* Sources */,
+				2BC7A1281FBADD7B008DF63F /* Frameworks */,
+				2BC7A1291FBADD7B008DF63F /* Resources */,
+				353090E3BB021D4823373745 /* [CP] Embed Pods Frameworks */,
+				F7E2749643E8C5F79EB18B8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QooTools-PageableScrollViewDemo";
+			productName = "QooTools-PageableScrollViewDemo";
+			productReference = 2BC7A12B1FBADD7B008DF63F /* QooTools-PageableScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BC7A1231FBADD7B008DF63F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Pincai;
+				TargetAttributes = {
+					2BC7A12A1FBADD7B008DF63F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2BC7A1261FBADD7B008DF63F /* Build configuration list for PBXProject "QooTools-PageableScrollViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BC7A1221FBADD7B008DF63F;
+			productRefGroup = 2BC7A12C1FBADD7B008DF63F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BC7A12A1FBADD7B008DF63F /* QooTools-PageableScrollViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BC7A1291FBADD7B008DF63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D713B1FBAEDAC009C4D55 /* Main.storyboard in Resources */,
+				2BC7A1381FBADD7B008DF63F /* Assets.xcassets in Resources */,
+				2B2D713A1FBAEDAC009C4D55 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		353090E3BB021D4823373745 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QooTools-PageableScrollViewDemo/Pods-QooTools-PageableScrollViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4CB6805E761E0484B68293 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QooTools-PageableScrollViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7E2749643E8C5F79EB18B8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QooTools-PageableScrollViewDemo/Pods-QooTools-PageableScrollViewDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QooTools-PageableScrollViewDemo/Pods-QooTools-PageableScrollViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BC7A1271FBADD7B008DF63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2D71321FBAE915009C4D55 /* PCDetailVC.m in Sources */,
+				2B2D71351FBAEAB9009C4D55 /* PCFirstPageVC.m in Sources */,
+				2BC7A13E1FBADD7B008DF63F /* main.m in Sources */,
+				2BC7A1301FBADD7B008DF63F /* AppDelegate.m in Sources */,
+				2BC7A1461FBAE3A9008DF63F /* UIScrollView+PCPageableScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B2D71361FBAEDAC009C4D55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2D71371FBAEDAC009C4D55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2B2D71381FBAEDAC009C4D55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2D71391FBAEDAC009C4D55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BC7A13F1FBADD7B008DF63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BC7A1401FBADD7B008DF63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BC7A1421FBADD7B008DF63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46559A3487D40932127CEFF3 /* Pods-QooTools-PageableScrollViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "QooTools-PageableScrollViewDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pincai.QooTools-PageableScrollViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BC7A1431FBADD7B008DF63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76BC6A5C45E7A444FF77C933 /* Pods-QooTools-PageableScrollViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "QooTools-PageableScrollViewDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pincai.QooTools-PageableScrollViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BC7A1261FBADD7B008DF63F /* Build configuration list for PBXProject "QooTools-PageableScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC7A13F1FBADD7B008DF63F /* Debug */,
+				2BC7A1401FBADD7B008DF63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BC7A1411FBADD7B008DF63F /* Build configuration list for PBXNativeTarget "QooTools-PageableScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BC7A1421FBADD7B008DF63F /* Debug */,
+				2BC7A1431FBADD7B008DF63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BC7A1231FBADD7B008DF63F /* Project object */;
+}
